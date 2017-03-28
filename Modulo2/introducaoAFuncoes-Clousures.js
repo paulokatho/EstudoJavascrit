@@ -1,5 +1,6 @@
 
 // Funções - Conceitos de Clousures
+// Ele serve para proteger as variaveis também, pois quem manipular a variavel não pode alterar o valor dela, tipo no meio da execução mudar o valor.
 
 /* O conceito da Clousures é de encapsular ou fechar algo ou variavel, mas continuar tendo acesso a ela.*/
 
