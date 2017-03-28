@@ -31,6 +31,6 @@ console.log('Numero Arredondado:', numeroArredondado);
 	Pode ser feito muita coisa.
 */
 
-aula 3.6
+
 
 
