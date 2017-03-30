@@ -14,4 +14,12 @@ for (var prop in katho) {
 	console.log(prop);
 	console.log('');
 	console.log(prop, '-->', katho[prop]);
+	console.log('');
+
+	//exemplo: dá para comparar e encontrar uma propriedade
+	if (katho ['endereco'] ['estado'] === 'SP') {
+		console.log('Exibindo valor após comparação com IF:', katho ['endereco'] ['estado']);
+
+	}
+
 }
