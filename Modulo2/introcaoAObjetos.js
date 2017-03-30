@@ -68,7 +68,7 @@ console.log(typeof fox);
 
 	var celta = {
 		cor: 'branco',
-		modelo: 'celta',
+		modelo: 'celta',	
 		fabricante: 'GM',
 
 		ligar: function() {
