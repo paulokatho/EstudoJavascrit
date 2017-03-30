@@ -40,5 +40,39 @@ console.log(typeof fox);
 
 	//tentando acessar alguma propriedade que não existe, vai retornar um tipo "undefined"
 	console.log('Potência:', fox.potencia);
+	console.log('');
 
-	tempo: 10:15
+// chamando uma função dentro de um objeto
+	
+	fox.ligar = function () {
+		console.log('Ligando o carro!')
+	};
+
+	console.log(fox); //aqui vai exibir o tipo do retorno que é function dentro de uma função.
+	//para executar a funcao usamos o ()
+	fox.ligar();
+	console.log('');
+
+// montando objeto celta
+// A estrutura do objeto é:
+	/*
+	 var nome = { };
+		propriedades: valorDaPropriedade
+
+			funcao() {
+				//codigo
+			}
+	
+
+	 } */
+
+	var celta = {
+		cor: 'branco',
+		modelo: 'celta',
+		fabricante: 'GM',
+
+		ligar: function() {
+			console.log('Ligando o carro');
+		}
+	};
+	console.log('celta', celta);
