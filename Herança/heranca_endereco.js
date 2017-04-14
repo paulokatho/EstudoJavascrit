@@ -1,5 +1,6 @@
 var endereco = {
-	rua: 'Rua Pitangueiras'
+	rua: 'Rua Pitangueiras',
+	numero: '134'
 }
 
 var pessoa1 = Object.create(endereco);
@@ -12,5 +13,5 @@ var pessoa2 = {
 	idade: '09',
 }
 
-console.log('Pessoa 1 - Nome:', pessoa1.nome, 'Endereço:', pessoa1.rua);
+console.log('Pessoa 1 - Nome:', pessoa1.nome, 'Endereço:', pessoa1.rua, pessoa1.numero);
 console.log('pessoa2:', pessoa2);
