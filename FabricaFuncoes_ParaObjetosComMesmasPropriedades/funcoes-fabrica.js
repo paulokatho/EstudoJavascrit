@@ -2,6 +2,8 @@
 	Nesse momento vamos ver como criar fabrica de funcoes para objetos que utilizam as mesmas prpriedades para evitar erros
 		de digitação quando utilizamos as mesmas prppriedades em objetos diferentes
 		E também para reutilizar código.
+
+	Então eu crio uma funcção criarCarroDaVolks e retorno um objeto
 */
 
 var criarCarroDaVolks = function(nome, placa) {
