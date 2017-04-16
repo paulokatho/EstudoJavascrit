@@ -1,0 +1,26 @@
+
+- Module Pattern
+
+var estado = (function() {
+	
+})();
+
+	Esse é o module pattern que encapsula a variavel e deixa ela protegida.
+	Então a funcao é "auto executavel (funcition(()....})" e depois ela tem que ser executada com ()... ex: ")();"
+
+
+- Função Construtora
+
+	Por conveção se utiliza o nome dessa função com a primeira letra em maiusculo, tipo "Carro".
+	Depois para acessar os atributos dessa função construtora é necessário utilizar o this.placa, por exemplo, pois estamos informando que os 
+		atributos acessados são daquele objeto em questão.
+
+	Ex:
+
+		var Carro = function(nome, placa) {
+			this.nome = nome;
+			this.placa = placa;
+			this.fabricante = 'VW';
+		}
+
+		var fox = new Carro('Fox', 'AAA-1111');
